@@ -115,9 +115,13 @@
 
 ### 2. 設定の適用
 
-1. Obsidianの設定を開く
-2. Community plugins → Linter → 設定を開く
-3. 「Import/Export Settings」から `data.json` をインポート
+1. Obsidianを終了する
+2. 設定ファイルを直接配置:
+   ```
+   ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/.obsidian/plugins/obsidian-linter/data.json
+   ```
+3. このリポジトリの `data.json` を上記パスにコピー
+4. Obsidianを再起動
 
 ### 3. 使用
 
@@ -136,8 +140,11 @@
 設定をカスタマイズする場合は：
 
 1. Obsidian内でLinter設定を変更
-2. 「Export Settings」で新しい設定をエクスポート
-3. `data.json` を更新
+2. 変更後、以下のパスから設定ファイルをコピー:
+   ```
+   ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/.obsidian/plugins/obsidian-linter/data.json
+   ```
+3. このリポジトリの `data.json` を更新
 
 ## 要件
 
